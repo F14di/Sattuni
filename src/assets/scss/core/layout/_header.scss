@@ -1,10 +1,11 @@
 
 .site-header {
 	position: absolute ;
-	top: 0;
+	inset:0 0 auto;
 	width: 100%;
 	z-index: 10 !important;
 	background: color-bg(header);
+	
 	// transition: all 0.4s linear;
 
 	+ .site-content {
@@ -19,15 +20,35 @@
 	}	
 	&.header-fixed{
 		position: fixed;
-		// background-color: rgba(#99b48d, 0.2);
-		// opacity: 1;
-		// .site-header-inner {
-		// 	height: 40px;
-
-		// }
+		// transition: background-color 0.5s ease;
+		// background-color: white;
 	}
 }
 
+.container{
+	.nav-bg-color{
+		height: 100%;
+		width: 100%;
+		background-color: get-color(light,1);
+		inset: 0;
+		position: absolute;
+		top:-100%;
+		transition: top 420ms;
+		z-index: -1;
+	}
+	.bg-color-visible{
+		top:unset;
+	}
+}
+@include media( '>medium' ) {
+	.header-fixed{
+		.container{
+			.nav-bg-color{
+					top:0;
+			}
+		}
+	}
+}
 .site-header-inner {
     display: flex;
     justify-content: space-between;

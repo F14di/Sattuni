@@ -17,7 +17,7 @@
 
 		.split-item-image {
 			position: relative;
-			width: 100%;
+			// width: 100%;
 
 			img,
 			svg,
@@ -97,7 +97,7 @@
 			}
 
 			.split-item-image {
-				min-width: ($container--width-sm * 0.5) - $split-item-image--padding-h;
+				min-width: unset; //($container--width-sm * 0.5) - $split-item-image--padding-h;
 			}
 		}
 

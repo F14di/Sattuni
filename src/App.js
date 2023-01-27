@@ -35,9 +35,9 @@ const App = () => {
   }, [location]);
 
   useScroll(height=>{
-    if(height > 100 ){
+    if(height > 0 ){
       setFixedHeader(true)
-    }else if(height < 100 ){
+    }else if(height <10 ){
       setFixedHeader(false)
     }
   })

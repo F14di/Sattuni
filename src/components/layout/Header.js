@@ -80,6 +80,7 @@ const Header = ({
       className={classes}
     >
       <div className="container">
+      <div className='nav-bg-color'></div>
         <div className={
           classNames(
             'site-header-inner',
@@ -136,6 +137,7 @@ const Header = ({
               </nav>
             </>}
         </div>
+
       </div>
     </header>
   );

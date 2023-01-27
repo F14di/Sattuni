@@ -44,7 +44,7 @@
 .footer-block {
 	flex-grow: 1;
 	flex-basis: $footer-block--min-width;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	padding: $footer-block--padding_v * 0.5 $footer-block--padding_h * 0.5;
 
 	* {

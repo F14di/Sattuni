@@ -20,7 +20,7 @@
 			content: '';
 			flex-basis: $tiles-item--width;
 			max-width: $tiles-item--width;
-			box-sizing: content-box;
+			box-sizing: border-box;
 			padding-left: $tiles-items--padding__mobile * 0.5;
 			padding-right: $tiles-items--padding__mobile * 0.5;
 			height: 0;
@@ -31,7 +31,7 @@
 .tiles-item {
 	flex-basis: $tiles-item--width;
 	max-width: $tiles-item--width;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	padding: $tiles-items--padding__mobile * 0.5;
 
 	* {

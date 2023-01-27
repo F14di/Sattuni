@@ -67,64 +67,65 @@ if(elContainer){
       className={outerClasses}
       id="features-brief-menu"
       ref={refContainerBriefMenu} >
-      <div className="section-inner-wrapper container min-h-screen" >
+      <div className="section-inner-wrapper container" >
         <div className={innerClasses} >
           <div className="brief-menu-grid-layout">
             <div className="plates-wrapper">
               <div className="plates-inner-wrapper" >
                   <div className="plate-wrapper" >
                       <div className="plate-item" >
+                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
+                              <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/>
+                          </div>
                           <div className="plate-item-text-area">
                               <h1>Aleppo Bowl Sattuni</h1>
                               <p>Aleppo Bowl Sattuni long text  ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektr</p>
                           </div>
-                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              {/* <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/> */}
-                          </div>
                       </div>
                   </div>
                   <div className="plate-wrapper" >
                     <div className="plate-item" >
+                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
+                              <Image src={require('./../../assets/images/Baba Ganoush_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/>
+                          </div>
                           <div className="plate-item-text-area">
                               <h1>Baba Ganoush_Sattuni</h1>
                               <p>Baba Ganoush_Sattuni long text  ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektr</p>
                           </div>
-                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              {/* <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/> */}
-                          </div>
                       </div>
                   </div>
                   <div className="plate-wrapper" >
                     <div className="plate-item" >
+                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
+                              <Image src={require('./../../assets/images/Damascus Plate_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/>
+                          </div>
                           <div className="plate-item-text-area">
                               <h1>Damascus Plate_Sattuni</h1>
                               <p>Damascus Plate_Sattuni long text  ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektr</p>
                           </div>
-                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              {/* <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/> */}
-                          </div>
                       </div>
                   </div>
                   <div className="plate-wrapper" >
                     <div className="plate-item" >
+                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
+                              <Image src={require('./../../assets/images/Fatayer_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/>
+                          </div>
                           <div className="plate-item-text-area">
                               <h1>Fatayer_Sattuni</h1>
                               <p>Fatayer_Sattuni long text  ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektr</p>
                           </div>
-                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              {/* <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/> */}
-                          </div>
                       </div>
                   </div>
                   <div className="plate-wrapper" >
                     <div className="plate-item" >
+                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
+                              <Image src={require('./../../assets/images/Salad Fawake_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/>
+                          </div>
                           <div className="plate-item-text-area">
                               <h1>Salad Fawake_Sattuni</h1>
                               <p>Salad Fawake_Sattuni long text  ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektr</p>
                           </div>
-                          <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              {/* <Image src={require('./../../assets/images/Aleppo Bowl_Sattuni.jpg')} width={528} height={396} alt="" style={{margin:"0 auto"}}/> */}
-                          </div>
+                          
                       </div>
                   </div>
               </div>

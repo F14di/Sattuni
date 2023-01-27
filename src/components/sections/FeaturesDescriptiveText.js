@@ -75,7 +75,7 @@ if(elContainer){
       className={outerClasses}
       id="features-descriptive-text"
       ref={refContainer} >
-      <div className="section-inner-wrapper container min-h-screen flex flex-column justify-center">
+      <div className="section-inner-wrapper container flex flex-column justify-center">
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={descriptiveTextClasses}>
@@ -84,8 +84,8 @@ if(elContainer){
               <div className="descriptive-text-item-inner">
                 <div className="features-descriptive-text-item-content">
                     <h1 className={`descriptive-text ${opacityForBlock(progress , 0)}`} >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</span>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</span>
+                    <h4  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</h4>
+                    <h4  className={`descriptive-text ${opacityForBlock(progress , 2)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</h4>
                 </div>
               </div>
             </div>
