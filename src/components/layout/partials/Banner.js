@@ -12,9 +12,9 @@ const Banner = ({
         <div {...props} className="banner">
           <div className="banner-inner text-xxs">
             <div className='banner-container'>
-              <a className="banner-link banner-link-white" href="#" target="_blank" rel="noopener noreferrer">Accept all cookies</a> 
+              <a className="banner-link banner-link-white" href="/" target="_blank" rel="noopener noreferrer">Accept all cookies</a> 
                 <span className="banner-separator">or</span> 
-                <a className="banner-link banner-link-green" href="#" target="_blank" rel="noopener noreferrer">Reject all cookies</a>
+                <a className="banner-link banner-link-green" href="/" target="_blank" rel="noopener noreferrer">Reject all cookies</a>
             </div>
             <button className="banner-close" onClick={() => setBannerOpen(false)}>
               <span className="screen-reader">Close</span>

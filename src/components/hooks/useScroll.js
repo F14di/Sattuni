@@ -12,7 +12,7 @@ function useScroll(callback) {
         return () => {
           window.removeEventListener('scroll', handleScroll);
         };
-      }, []);
+      }, [callback]);
 }
 
 // function MyComponent() {
