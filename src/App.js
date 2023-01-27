@@ -10,6 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import useScroll from './components/hooks/useScroll';
+import ScrollObserver from './utils/scroll-observer';
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -42,13 +43,15 @@ const App = () => {
   })
 
   return (
-    <ScrollReveal
-      ref={childRef}
-      children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} fixedHeader={fixedHeader}/>
-        </Switch>
-      )} />
+    <ScrollObserver>
+      <ScrollReveal
+        ref={childRef}
+        children={() => (
+          <Switch>
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} fixedHeader={fixedHeader}/>
+          </Switch>
+        )} />
+    </ScrollObserver>
   );
 }
 

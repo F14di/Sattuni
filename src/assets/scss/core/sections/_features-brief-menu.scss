@@ -1,0 +1,61 @@
+.features-brief-menu{
+    .section-inner-wrapper{
+        max-width: unset;
+        .features-brief-menu-inner.section-inner{
+            .brief-menu-grid-layout{
+                display: flex;
+                justify-content: space-around;
+                .plates-wrapper{
+                    // flex-grow:1;
+                    max-width: 500px;
+                    width: 50%;
+                    .plates-inner-wrapper{
+                        .plate-wrapper{
+                            height: 100vh;
+                            .plate-item{
+                                display: flex;
+                                height: 100%;
+                                flex-grow: 1;
+                                align-items: center;
+                                justify-content: center;
+                                .plate-item-text-area{
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-align: center;
+                                    width: 90%;
+                                }
+                                .plate-item-image-area{
+                                    flex-grow: 1;
+                                    &.plate-item-image-area-mobile-only{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .plate-images-wrapper-section{
+                    height:100vh;
+                    position:sticky;
+                    max-width: 500px;
+                    width: 50%;
+                    top:0;
+                    .plate-images-inner-wrapper{
+                        height:100%;
+                        display:flex;
+                        align-items:center;
+                        img{
+                            opacity: 0;
+                            will-change: opacity;
+                            transition: opacity 550ms;
+                            &.image-visible{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

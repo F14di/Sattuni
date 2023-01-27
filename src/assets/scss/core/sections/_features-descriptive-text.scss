@@ -1,0 +1,23 @@
+// .descriptive-text{
+//     transition:opacity 2;
+// }
+
+.features-descriptive-text.section{
+    .section-inner-wrapper{
+        .section-inner{
+            // padding-top: $hero--padding-t__mobile;
+			// padding-bottom: $hero--padding-b__mobile;
+            .descriptive-text-wrap{
+             .descriptive-text{
+                color: get-color(dark,1);
+                opacity: 0.22;
+                will-change: opacity;
+                transition: opacity 540ms;
+                &.text-focus{
+                    opacity: 1;
+                }
+             }   
+            }
+        }
+    }
+}

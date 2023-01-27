@@ -48,6 +48,18 @@ export const SectionSplitProps = {
   }
 }
 
+// // Section descriptive text props
+// export const SectionDescriptiveTextProps = {
+//   types: {
+//     ...SectionShared.types,
+//     // pushLeft: PropTypes.bool
+//   },
+//   defaults: {
+//     ...SectionShared.defaults,
+//     // pushLeft: false
+//   }
+// }
+
 // Section tiles props
 export const SectionTilesProps = {
   types: {

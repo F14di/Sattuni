@@ -16,7 +16,7 @@ $font--family: (
 // The typographic scale
 $font--scale: (
 	// key 		// font-size, line-height, kerning
-	alpha:   	( 52px, 62px, -0.3px ),
+	alpha:   	( clamp(1rem, 1.4vw + 1rem, 5rem), 62px, -0.3px ),
 	beta:    	( 44px, 54px, -0.3px ),
 	gamma:   	( 32px, 42px, -0.3px ),
 	delta:   	( 24px, 34px, -0.1px ),

@@ -5,12 +5,17 @@ import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import FeaturesDescriptiveText from '../components/sections/FeaturesDescriptiveText';
+import FeaturesBriefMenu from '../components/sections/FeaturesBriefMenu';
+// import ScrollObserver from '../utils/scroll-observer';
 
 const Home = () => {
 
   return (
     <>
       <Hero className="illustration-section-01" />
+      <FeaturesDescriptiveText bottomOuterDivider/>
+      <FeaturesBriefMenu />
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
