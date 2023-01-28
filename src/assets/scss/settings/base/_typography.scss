@@ -16,10 +16,10 @@ $font--family: (
 // The typographic scale
 $font--scale: (
 	// key 		// font-size, line-height, kerning
-	alpha:   	( clamp(1rem, 1.4vw + 1rem, 5rem), 62px, -0.3px ),
-	beta:    	( 44px, 54px, -0.3px ),
+	alpha:   	( clamp(1.25rem, 6.2vw - 1rem, 2.375rem), 62px, -0.3px ),
+	beta:    	( clamp(1.125rem, 5.2vw - 1.2rem, 2.125rem), 54px, -0.3px ),
 	gamma:   	( 32px, 42px, -0.3px ),
-	delta:   	( 24px, 34px, -0.1px ),
+	delta:   	( clamp(1.125rem, 6vw - 1rem, 1.675rem), 34px, -0.1px ),
 	epsilon: 	( 20px, 30px, -0.1px ),
 	zeta:    	( 18px, 28px, -0.1px ),
 	eta:     	( 16px, 24px, -0.1px ),

@@ -83,9 +83,9 @@ if(elContainer){
             <div className="descriptive-text-item reveal-from-bottom">
               <div className="descriptive-text-item-inner">
                 <div className="features-descriptive-text-item-content">
-                    <h1 className={`descriptive-text ${opacityForBlock(progress , 0)}`} >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-                    <h4  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</h4>
-                    <h4  className={`descriptive-text ${opacityForBlock(progress , 2)}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur deserunt quam voluptatum quos ipsa cupiditate ipsum qui sequi illum? Qui exercitationem accusamus totam natus ut fugit magnam modi eaque doloremque.</h4>
+                    <h1 className={`descriptive-text ${opacityForBlock(progress , 0)}`} >Willkommen im Sattuni, Ihrem Mittelost-Restaurant in Düsseldorf!</h1>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Wir bieten Ihnen eine breite Auswahl an leckeren, gesunden Gerichten aus der palästinensischen Küche. Ob traditionelle Rezepte oder moderne Interpretationen, es ist für jeden Geschmack etwas dabei.</span>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}> Besuchen Sie unsere Website, um unsere vollständige Speisekarte zu sehen und Ihre Bestellung aufzugeben. Wir bieten auch Lieferservice innerhalb Düsseldorfs an. Wir freuen uns darauf, Ihnen bald Ihr Essen zu liefern!</span>
                 </div>
               </div>
             </div>

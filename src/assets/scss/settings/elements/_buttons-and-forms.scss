@@ -20,8 +20,8 @@ $button--bg: (
 	button-light-hover: 	darken(get-color(light, 1), 5%),
 	button-dark: 			get-color(dark, 2),
 	button-dark-hover: 		lighten(get-color(dark, 2), 2%),
-	button-primary: 		get-color(primary, 1),
-	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
+	button-primary: 		get-color(primary, 3),
+	button-primary-hover: 	lighten(get-color(primary, 3), 2%),
 	button-secondary: 		get-color(secondary, 1),
 	button-secondary-hover:	lighten(get-color(secondary, 1), 2%),
 	button-disabled: 		get-color(light, 3)
@@ -51,11 +51,11 @@ $button--weight: (
 );
 
 // More buttons settings
-$button--padding-h: 			32px;		// button, left and right padding
-$button-sm--padding-h:			24px;		// button (small), left and right padding
-$button-w-form--padding-h:		24px;		// button, left and right padding in a form group (.form-group) - Overrides button default padding
+$button--padding-h: 			26px;		// button, left and right padding
+$button-sm--padding-h:			18px;		// button (small), left and right padding
+$button-w-form--padding-h:		18px;		// button, left and right padding in a form group (.form-group) - Overrides button default padding
 $button-sm-w-form--padding-h:	null;		// button (small), left and right padding in a form group (.form-group) - Overrides button default padding
-$button--radius: 				2px;		// button radius (never use null)
+$button--radius: 				1.1rem;		// button radius (never use null)
 $button--transform: 			null;	    // button text-transform property (null is allowed)
 $button--max-size-mobile: 		280px;		// button max width on mobile (.button-wide-mobile)
 $button-group-padding: 			0; //was 16px		// padding between sibling buttons (nested into .button-group)
@@ -79,11 +79,11 @@ $form--bg: (
 	input: 							get-color(light, 1),
 	input-focus: 					null,
 	input-disabled: 				get-color(dark, 3),
-	check-radio-checked: 			get-color(primary, 1),
+	check-radio-checked: 			get-color(primary, 3),
 	switch:							get-color(dark, 3),
-    switch-checked:					get-color(primary, 1),
+    switch-checked:					get-color(primary, 3),
     range-track:                    get-color(light, 2),
-    range-thumb:                    get-color(primary, 1),    
+    range-thumb:                    get-color(primary, 3),    
 	// ↓ Inverted colors
 	input-inverse: 					null,
 	input-focus-inverse: 			null,
@@ -99,12 +99,12 @@ $form--bg: (
 $form--border: (
 	input: 						get-color(dark, 1),
 	input-hover: 				get-color(light, 3),
-	input-focus: 				get-color(primary, 1),
+	input-focus: 				get-color(primary, 3),
 	input-disabled: 			get-color(dark, 2),
 	// ↓ Inverted colors
 	input-inverse: 				darken(get-color(light, 1), 4%),
 	input-hover-inverse: 		null,
-	input-focus-inverse: 		get-color(primary, 1),
+	input-focus-inverse: 		get-color(primary, 3),
 	input-disabled-inverse:		null
 );
 
@@ -134,9 +134,9 @@ $form--weight: (
 
 // More forms settings
 $form--padding-h: 	 16px;		// form, inner left and right padding
-$form-sm--padding-h: 12px;		// form (small), inner left and right padding
-$form--radius: 		 0;			// form radius (never use null)
-$form-hint--margin:  8px;		// .form-hint top margin
+$form-sm--padding-h: 14px;		// form (small), inner left and right padding
+$form--radius: 		 0.8rem;			// form radius (never use null)
+$form-hint--margin:  0px;		// .form-hint top margin
 $range-thumb-size:   36px;      // .form-slider, thumb size
 
 // Don't change lines below!

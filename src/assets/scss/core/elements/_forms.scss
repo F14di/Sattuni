@@ -85,7 +85,6 @@ fieldset {
 
 textarea.form-input {
 	height: auto;
-    resize: vertical;
 }
 
 .form-select {
@@ -485,6 +484,7 @@ textarea.form-input {
 .form-hint {
 	@include font-size(hint);
 	margin-top: $form-hint--margin;
+	text-align: end;
 }
 
 @include media( '<=medium' ) {

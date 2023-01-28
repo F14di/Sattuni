@@ -1,12 +1,11 @@
-// .descriptive-text{
-//     transition:opacity 2;
-// }
 
 .features-descriptive-text.section{
     .section-inner-wrapper{
         .section-inner{
             // padding-top: $hero--padding-t__mobile;
 			// padding-bottom: $hero--padding-b__mobile;
+            padding-left:16px ;
+            padding-right:16px ;
             .descriptive-text-wrap{
              .descriptive-text{
                 color: get-color(dark,1);

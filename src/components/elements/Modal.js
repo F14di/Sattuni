@@ -7,16 +7,12 @@ const propTypes = {
   handleClose: PropTypes.func.isRequired,
   show: PropTypes.bool.isRequired,
   closeHidden: PropTypes.bool,
-  video: PropTypes.string,
-  videoTag: PropTypes.oneOf(['iframe', 'video'])
 }
 
 const defaultProps = {
   children: null,
   show: false,
   closeHidden: false,
-  video: '',
-  videoTag: 'iframe'
 }
 
 const Modal = ({
@@ -25,8 +21,6 @@ const Modal = ({
   handleClose,
   show,
   closeHidden,
-  video,
-  videoTag,
   ...props
 }) => {
 
@@ -62,7 +56,7 @@ const Modal = ({
   const classes = classNames(
     'modal',
     show && 'is-active',
-    video && 'modal-video',
+    // video && 'modal-video',
     className
   );
 
@@ -75,35 +69,6 @@ const Modal = ({
           onClick={handleClose}
         >
           <div className="modal-inner" onClick={stopProgagation}>
-            {video ?
-              <div className="responsive-video">
-                {videoTag === 'iframe' ?
-                  <iframe
-                    title="video"
-                    src={video}
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe> :
-                  <video
-                    v-else
-                    controls
-                    src={video}
-                  ></video>
-                }
-              </div> :
-              <>
-                {!closeHidden &&
-                  <button
-                    className="modal-close"
-                    aria-label="close"
-                    onClick={handleClose}
-                  ></button>
-                }
-                <div className="modal-content">
-                  {children}
-                </div>
-              </>
-            }
           </div>
         </div>
       }

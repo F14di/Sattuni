@@ -16,8 +16,8 @@ const LayoutDefault = ({ children, fixedHeader }) => {
     <main className="site-content">
       {children}
     </main>
-    <Banner />
-    <Footer />
+    {/* <Banner /> */}
+    {/* <Footer /> */}
   </>
 )};
 
