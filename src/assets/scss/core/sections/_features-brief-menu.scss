@@ -67,8 +67,8 @@
                     justify-content: space-around;
                     .plates-wrapper{
                         // flex-grow:1;
-                        max-width: 500px;
-                        width: 50%;
+                        max-width: 700px;
+                        width: 66%;
                         .plates-inner-wrapper{
                             display: block;
                             .plate-wrapper{
@@ -97,8 +97,10 @@
                         display: block;
                         height:60vh;
                         position:sticky;
-                        max-width: 500px;
-                        width: 50%;
+                        max-width: 600px;
+                        min-width: 420px;
+                        // width: 34%;
+                        flex-grow: 1;
                         top:20vh;
                         .plate-images-inner-wrapper{
                             height:100%;
@@ -107,7 +109,7 @@
                             img{
                                 opacity: 0;
                                 will-change: opacity;
-                                transition: opacity 550ms;
+                                transition: opacity 220ms;
                                 &.image-visible{
                                     opacity: 1;
                                 }

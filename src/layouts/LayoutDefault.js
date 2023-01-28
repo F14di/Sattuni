@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/layout/Header';
-// import Footer from '../components/layout/Footer';
+import Footer from '../components/layout/Footer';
 // import Banner from '../components/layout/partials/Banner';
 import classNames from 'classnames';
 
@@ -17,7 +17,7 @@ const LayoutDefault = ({ children, fixedHeader }) => {
       {children}
     </main>
     {/* <Banner /> */}
-    {/* <Footer /> */}
+    <Footer />
   </>
 )};
 

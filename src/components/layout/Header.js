@@ -86,7 +86,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <Logo width={64} height={64} src={require(`./../../../src/assets/images/logo/Logo for Website/256.png`)}/>
           {!hideNav &&
             <>
               <button
