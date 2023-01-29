@@ -42,7 +42,7 @@ const FeaturesContactUs = ({
                   <div className="contact-us-sections-separator"></div>
                   <div className="opening-hours-section">
                       <div className="opening-hours-header">
-                        <h6>Hours</h6>
+                        <h4>Hours</h4>
                       </div>
                       <div className="opening-hours-section-table">
                         <div className="day-wrapper"><span className="day">Sun</span> <span>07:00 - 12:00</span></div>

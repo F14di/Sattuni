@@ -80,7 +80,7 @@ if(elContainer){
                   return (<div className="plate-wrapper" >
                       <div className="plate-item" >
                           <div className="plate-item-image-area plate-item-image-area-mobile-only">
-                              <Image src={require(`./../../assets/images/bowls-transparent-bg/${MEAL.imgNoBg}.png`)} width={528} height={396} alt={MEAL.alt} style={{margin:"0 auto"}}/>
+                              <Image src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)}   alt={MEAL.alt} style={{margin:"0 auto"}}/>
                           </div>
                           <div className="plate-item-text-area">
                               <h5>{MEAL.headerText}</h5>
@@ -93,7 +93,7 @@ if(elContainer){
             </div>
             <div className="plate-images-wrapper-section">
               <div className="plate-images-inner-wrapper">
-                {meals.map((MEAL, i)=><Image className={`${opacityForBlock(progress , i)}`} src={require(`./../../assets/images/bowls-transparent-bg/${MEAL.imgNoBg}.png`)} width={528} height={396} alt="" style={{position:'absolute'}}/>)}
+                {meals.map((MEAL, i)=><Image className={`${opacityForBlock(progress , i)}`} src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)} width={280} height={280} alt="" style={{position:'absolute'}}/>)}
               </div>
             </div>
         </div>

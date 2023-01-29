@@ -16,6 +16,11 @@
             color: get-color(light,1);
         }
     }
+    .contact-us-form-inner-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
 }
 .contact-us-form-button-section{
     .button-group{
@@ -31,7 +36,7 @@
     align-items: stretch;
     .opening-hours-header{
         text-align: center;
-        > h6 {
+        > h4 {
             color: get-color(light,1);
         }
     }
@@ -68,11 +73,12 @@
     }
     .contact-us-form-details-section{
         display: flex;
+        gap: 9px;
         .form-details-field{
             flex-grow: 1;
         }
     }
-    .contact-us-text-area-section, .contact-us-form-button-section, .form-details-field{
+    .contact-us-text-area-section, .contact-us-form-button-section, .contact-us-form-details-section{
         padding: 0 12px;
     }
 }

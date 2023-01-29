@@ -35,7 +35,8 @@ const defaultProps = {
   size: '',
   placeholder: '',
   rows: 3,
-  hint: null
+  hint: null,
+  handleChange:()=>{}
 }
 
 const Input = ({
@@ -54,6 +55,7 @@ const Input = ({
   placeholder,
   rows,
   hint,
+  handleChange,
   ...props
 }) => {
 
@@ -85,6 +87,7 @@ const Input = ({
           value={value}
           placeholder={placeholder}
           rows={type === 'textarea' ? rows : null}
+          onChange={handleChange}
         />
         {children}
       </div>

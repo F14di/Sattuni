@@ -83,9 +83,9 @@ if(elContainer){
             <div className="descriptive-text-item reveal-from-bottom">
               <div className="descriptive-text-item-inner">
                 <div className="features-descriptive-text-item-content">
-                    <h1 className={`descriptive-text ${opacityForBlock(progress , 0)}`} >Willkommen im Sattuni, Ihrem Mittelost-Restaurant in Düsseldorf!</h1>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Wir bieten Ihnen eine breite Auswahl an leckeren, gesunden Gerichten aus der palästinensischen Küche. Ob traditionelle Rezepte oder moderne Interpretationen, es ist für jeden Geschmack etwas dabei.</span>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}> Besuchen Sie unsere Website, um unsere vollständige Speisekarte zu sehen und Ihre Bestellung aufzugeben. Wir bieten auch Lieferservice innerhalb Düsseldorfs an. Wir freuen uns darauf, Ihnen bald Ihr Essen zu liefern!</span>
+                    <h1 className={`descriptive-text heading ${opacityForBlock(progress , 0)}`} >Vielfältig, abwechslungsreich und farbenfroh, so stellt sich die arabische Küche dar.</h1>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Wir kreieren in unserer Küche frische, innovative Bowls, die traditionelle arabische Elemente mit der europäischen Salatkultur verbindet.</span>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}> Mit Sattuni’s speziellen Gewürzmischungen verleihen wir jeder Bowl eine unwiderstehliche Symphonie aus süßen und herzhaften Komponenten, getoppt mit einem würzigen Dressing.</span>
                 </div>
               </div>
             </div>

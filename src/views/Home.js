@@ -3,7 +3,7 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 // import FeaturesTiles from '../components/sections/FeaturesTiles';
 // import FeaturesSplit from '../components/sections/FeaturesSplit';
-// import Testimonial from '../components/sections/Testimonial';
+import Testimonial from '../components/sections/Testimonial';
 // import Cta from '../components/sections/Cta';
 import FeaturesDescriptiveText from '../components/sections/FeaturesDescriptiveText';
 import FeaturesBriefMenu from '../components/sections/FeaturesBriefMenu';
@@ -17,10 +17,10 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <FeaturesDescriptiveText /> {/*bottomOuterDivider*/}
       <FeaturesBriefMenu />
+      <Testimonial topDivider />
       <FeaturesContactUs />
       {/* <FeaturesTiles /> */}
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
-      {/* <Testimonial topDivider /> */}
       {/* <Cta split /> */}
     </>
   );

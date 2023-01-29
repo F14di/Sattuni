@@ -19,7 +19,7 @@
                     display: flex;
                     // flex-wrap: nowrap;
                     overflow-x: auto;
-                    gap:12px;
+                    gap:25px;
                     padding: 0 12px;
 
                     scroll-snap-type: x mandatory;
@@ -33,15 +33,10 @@
                     }
 
                     .plate-wrapper{
-                        // width: auto;
-                        // height: ;
                         scroll-snap-align: center;
-                        max-width: 368px;
-                        min-width: 292px;
+                        max-width: 180px;
+                        min-width: 142px;
                         flex:1;
-                        .plate-item-image-area{
-                            // height: 150px;
-                        }
                         .plate-item-text-area{
                             text-align: center;
                             margin: 11px 0 2px;
@@ -50,6 +45,12 @@
                                 font-size: clamp(1.188rem, 0.6vw + 1rem, 1.563rem);
                                 margin: 0;
                             }
+                        }
+                        .plate-item{
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
                         }
                     }
                 }
@@ -99,13 +100,14 @@
                         position:sticky;
                         max-width: 600px;
                         min-width: 420px;
-                        // width: 34%;
                         flex-grow: 1;
                         top:20vh;
+                        padding: 0 18px;
                         .plate-images-inner-wrapper{
-                            height:100%;
-                            display:flex;
-                            align-items:center;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                             img{
                                 opacity: 0;
                                 will-change: opacity;
