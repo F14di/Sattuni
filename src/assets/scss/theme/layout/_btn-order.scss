@@ -1,0 +1,32 @@
+.btn-order-now-wrapper{
+    position: fixed;
+    top: 15vh;
+    right: -100px;
+    will-change: right;
+    transition: right 360ms ease-in;
+    .btn-order-now{
+
+    }
+    &.btn-visible{
+    right: 12px;
+    }
+}
+
+@include media( '<=small' ) {
+    .btn-order-now-wrapper{
+        position: fixed;
+        bottom: 12vh;
+        top: unset;
+        left: -100px;
+        will-change: left;
+        transition: left 360ms ease-in;
+        .btn-order-now{
+            height: 62px;
+            width: 62px;
+        }
+        &.btn-visible{
+        left: 12px;
+        }
+    }
+    
+}

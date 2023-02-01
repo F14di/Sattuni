@@ -31,6 +31,7 @@ const Button = ({
   wide,
   wideMobile,
   disabled,
+  isRound,
   ...props
 }) => {
 
@@ -41,6 +42,7 @@ const Button = ({
     loading && 'is-loading',
     wide && 'button-block',
     wideMobile && 'button-wide-mobile',
+    isRound && 'button-round',
     className
   );
 

@@ -53,11 +53,10 @@ const Hero = ({
             Herzlich Willkommen bei  <span className="text-color-primary">Sattuni</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">Lieferservice in Düsseldorf.</p>
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">Die besten arabischen Köstlichkeiten - jetzt bequem geliefert.</p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">Menü &amp; bestellen</Button>
-
                 </ButtonGroup>
               </div>
             </div>

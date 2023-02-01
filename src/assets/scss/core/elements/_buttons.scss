@@ -1,6 +1,7 @@
 .button {
     display: inline-flex;
 	@include font-size(button);
+	line-height: 1.2em;
     @include font-weight(button);
 	padding: (($button-form--height - get-line-height(button) - ($button-form--border-width * 2)) * 0.5) ($button--padding-h - $button-form--border-width);
 	height: $button-form--height;
@@ -18,7 +19,7 @@
     letter-spacing: inherit;
     white-space: nowrap;
 	transition: background .15s ease;
-
+	align-items: center;
     &:active {
         outline: 0;
     }
@@ -26,6 +27,11 @@
 	&:hover {
 		background-color: color-bg(button-light-hover);
 		border-color: color-border(button-light-hover);
+	}
+	&.button-round{
+		border-radius:50%;
+		width: 75px;
+		height: 75px;
 	}
 
 	&.is-loading {

@@ -83,9 +83,9 @@ if(elContainer){
             <div className="descriptive-text-item reveal-from-bottom">
               <div className="descriptive-text-item-inner">
                 <div className="features-descriptive-text-item-content">
-                    <h1 className={`descriptive-text heading ${opacityForBlock(progress , 0)}`} >Vielfältig, abwechslungsreich und farbenfroh, so stellt sich die arabische Küche dar.</h1>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Wir kreieren in unserer Küche frische, innovative Bowls, die traditionelle arabische Elemente mit der europäischen Salatkultur verbindet.</span>
-                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}> Mit Sattuni’s speziellen Gewürzmischungen verleihen wir jeder Bowl eine unwiderstehliche Symphonie aus süßen und herzhaften Komponenten, getoppt mit einem würzigen Dressing.</span>
+                    <h1 className={`descriptive-text heading ${opacityForBlock(progress , 0)}`} >Reise zum Orient - bowls &amp; more.</h1>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 1)}`}>Erlebe die arabische Küche auf eine neue Art und Weise - bei uns im sattuni bieten wir dir ein unvergessliches Geschmackserlebnis mit unseren frischen und innovativen Bowls. Verbinde traditionelle arabische Elemente mit europäischer Salatkultur und lass dich von unseren speziellen Gewürzmischungen begeistern.</span>
+                    <span  className={`descriptive-text ${opacityForBlock(progress , 2)}`}> Jede Bowl ist eine perfekte Symmetrie aus süßen und herzhaften Zutaten, garniert mit einem würzigen Dressing. Besuche uns jetzt und entdecke die Vielfalt der arabischen Küche!</span>
                 </div>
               </div>
             </div>

@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
-// import Banner from '../components/layout/partials/Banner';
+import Banner from '../components/layout/partials/Banner';
 import classNames from 'classnames';
+import OrderButton from '../components/layout/partials/OrderButton';
 
 const LayoutDefault = ({ children, fixedHeader }) => {
   const classes = classNames(
@@ -16,8 +17,9 @@ const LayoutDefault = ({ children, fixedHeader }) => {
     <main className="site-content">
       {children}
     </main>
-    {/* <Banner /> */}
     <Footer />
+    <Banner />
+    <OrderButton />
   </>
 )};
 

@@ -30,7 +30,7 @@ $button--bg: (
 // Buttons: border color
 $button--border: (
 	button-light: 			transparent,	// button-light is default (.button), so if it's transparent you can set all other values to null
-	button-light-hover: 	null,
+	button-light-hover: 	get-color(primary, 3),
 	button-dark: 			null,
 	button-dark-hover: 		null,
 	button-primary: 		null,
