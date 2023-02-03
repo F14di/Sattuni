@@ -26,7 +26,7 @@ const OrderButton = () =>{
 
     return (<> 
     <div className={outerClasses}>
-        <Button color="primary" wide={true} className={classes} tag="button" isRound={true}>Jetzt bestellen</Button>
+        <Button color="primary" wide={true} className={classes} tag="button" isRound={true} data-glf-cuid="34d14a10-f27f-4ca4-9379-a56fdb3bec53" data-glf-ruid="a1654ea9-73ac-4738-ac58-ca16dc332c65">Jetzt bestellen</Button>
     </div>
     </>)
 }

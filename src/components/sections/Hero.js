@@ -55,7 +55,7 @@ const Hero = ({
               <h6 className="m-0 mb-32 hero-subtitle reveal-from-bottom" data-reveal-delay="400">Die besten arabischen Köstlichkeiten - jetzt bequem geliefert.</h6>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#">Menü &amp; bestellen</Button>
+                  <Button tag="a" color="primary" wideMobile data-glf-cuid="34d14a10-f27f-4ca4-9379-a56fdb3bec53" data-glf-ruid="a1654ea9-73ac-4738-ac58-ca16dc332c65" >Menü &amp; bestellen</Button>
                 </ButtonGroup>
               </div>
             </div>
