@@ -44,7 +44,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Das sagen unsere Kunden über uns',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: ''
   };
 
   return (
