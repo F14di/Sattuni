@@ -32,12 +32,18 @@
 }
 .opening-hours-section{
     display: flex;
+    gap: 16px;
+    
     flex-direction: column;
     align-items: stretch;
     .opening-hours-header{
         text-align: center;
-        > h4 {
+        > h4, > h6 {
             color: get-color(light,1);
+        }
+
+        > h6 {
+            margin: 0;
         }
     }
     .opening-hours-section-table{
@@ -45,6 +51,7 @@
         min-width: 260px;
         align-self: center;
         text-align: left;
+        margin: 0 auto;
         color: get-color(light,1);
         .day-wrapper{
             display: flex;
@@ -63,6 +70,7 @@
         }
         .opening-hours-section{
             flex-grow: 4;
+            padding-left: 28px;
         }
         .contact-us-sections-separator{
             display: block;

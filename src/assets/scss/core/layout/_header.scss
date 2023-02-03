@@ -20,8 +20,6 @@
 	}	
 	&.header-fixed{
 		position: fixed;
-		// transition: background-color 0.5s ease;
-		// background-color: white;
 	}
 }
 
@@ -89,7 +87,9 @@
 		@include font-weight(header-link);
 		text-transform: $link-header--transform;
         padding: 0 $header-nav--padding-h;
-
+		&:hover{
+			color: get-color(dark, 3);
+		}
 		.invert-color & {
 			@include anchor-aspect(header, inverse);
 		}

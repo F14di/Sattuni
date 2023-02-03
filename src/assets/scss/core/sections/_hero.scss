@@ -40,6 +40,9 @@
 			}
 		}
 	}
+	.hero-subtitle{
+		color: get-color(dark, 3);
+	}
 	&::before {    
 		content: "";
 		background-image: url('../../../images/Sattuni_Close up_1.jpg');
@@ -62,8 +65,9 @@
 	align-items: center;
 
 	.hero-content{
-		// position: relative;
-		// top: 40px;
+		background: rgba(white, 0.2);
+		padding: 2.2rem 1.5rem;
+		border-radius: 0.25rem;
 	}
 	// Affects only hero full
 	> .hero-content + .hero-figure,

@@ -43,17 +43,16 @@ const Hero = ({
 
   return (
     <section
+      id="section-hero"
       {...props}
       className={outerClasses}
     >
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-            Herzlich Willkommen bei  <span className="text-color-primary">Sattuni</span>
-            </h1>
+            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Herzlich Willkommen bei  <span className="text-color-primary">Sattuni</span></h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">Die besten arabischen Köstlichkeiten - jetzt bequem geliefert.</p>
+              <h6 className="m-0 mb-32 hero-subtitle reveal-from-bottom" data-reveal-delay="400">Die besten arabischen Köstlichkeiten - jetzt bequem geliefert.</h6>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">Menü &amp; bestellen</Button>
@@ -61,8 +60,8 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className='hero-scroll-icon-container' >
-            <SmoothScroll to="features-tiles"><div className="hero-scroll-icon"></div></SmoothScroll>
+          <div className='hero-scroll-icon-container' id="hero-scroll-icon-container" >
+            <SmoothScroll to="hero-scroll-icon-container"><div className="hero-scroll-icon"></div></SmoothScroll>
           </div>
           
         </div>

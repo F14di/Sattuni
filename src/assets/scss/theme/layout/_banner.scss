@@ -16,9 +16,8 @@
     background-color: #1e293b;
     color: #f8fafc;
     padding: 12px;
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
+    display: flex;
+    align-items: center;
     text-align: center;
 
     @include media('>medium') {
@@ -33,7 +32,7 @@
 
 .banner-link {
     font-weight: 500;
-
+    cursor: pointer;
     &:hover {
         text-decoration: underline;
     }

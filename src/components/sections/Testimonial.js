@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-
+import Image from '../elements/Image'
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -59,12 +59,13 @@ const Testimonial = ({
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="20">
+              {/* <Image className="testimonials-image-avatar" width={'65'} height={'65'} src={require(`./../../assets/images/avatars/avataaars3.png`)}/> */}
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0"> — Incredible delicious <span role="img" aria-label="emoji-delicious">😋</span>. I can't get enough of it. Absolutely recommendable. Very nice owner.</p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-12 pt-8 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high"></span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <span>Google</span>
@@ -74,12 +75,13 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="280">
+            {/* <Image className="testimonials-image-avatar" width={'65'} height={'65'} src={require(`./../../assets/images/avatars/avataaars2.png`)}/> */}
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0"> — Nice concept and tasty food. I like particularly the main dishes and the rice! The owner is very friendly and approachable. I definitely recommend this place! </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-12 pt-8 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high"></span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <span>Google</span>
@@ -89,12 +91,13 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="420">
+            {/* <Image className="testimonials-image-avatar" width={'65'} height={'65'} src={require(`./../../assets/images/avatars/avataaars4.png`)}/> */}
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0"> — Ganz neues Restaurant in unmittelbarer Nähe zum Rhein! Auf der Karte findet ihr verschiedene frisch zubereitete, orientalische Gerichte. Wir hatten einen Hummus Teller, Couscous, gegrilltes Gemüse, Hühnchen und Falafel! Alles war sehr lecker <span role="img" aria-label="emoji-delicious">😋</span> wir kommen auf jeden Fall wieder! <span role="img" aria-label="emoji-hearts">💕</span> </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-12 pt-8 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high"></span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <span>Google</span>

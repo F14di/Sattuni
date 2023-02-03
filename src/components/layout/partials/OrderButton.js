@@ -26,7 +26,7 @@ const OrderButton = () =>{
 
     return (<> 
     <div className={outerClasses}>
-        <Button color="primary" wide={true} className={classes} tag="button" isRound={true}>Order</Button>
+        <Button color="primary" wide={true} className={classes} tag="button" isRound={true}>Jetzt bestellen</Button>
     </div>
     </>)
 }

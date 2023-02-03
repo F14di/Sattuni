@@ -83,7 +83,7 @@ if(elContainer){
                               <Image src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)}   alt={MEAL.alt} style={{margin:"0 auto"}}/>
                           </div>
                           <div className="plate-item-text-area">
-                              <h5>{MEAL.headerText}</h5>
+                              <h4>{MEAL.headerText}</h4>
                               <p>{MEAL.descriptionText}</p>
                           </div>
                       </div>

@@ -5,7 +5,8 @@
     will-change: right;
     transition: right 360ms ease-in;
     .btn-order-now{
-
+        white-space: break-spaces;
+        font-size: 12px;
     }
     &.btn-visible{
     right: 12px;

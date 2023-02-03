@@ -41,18 +41,34 @@ const FeaturesContactUs = ({
                   </div>
                   <div className="contact-us-sections-separator"></div>
                   <div className="opening-hours-section">
+                    <div>
                       <div className="opening-hours-header">
-                        <h4>Hours</h4>
+                        <h4>Öffnungszeiten</h4>
                       </div>
                       <div className="opening-hours-section-table">
-                        <div className="day-wrapper"><span className="day">Sun</span> <span>07:00 - 12:00</span></div>
-                        <div className="day-wrapper"><span className="day">Mon</span> <span>13:00 - 22:00</span></div>
-                        <div className="day-wrapper"><span className="day">Tue</span> <span>13:00 - 22:00</span></div>
-                        <div className="day-wrapper"><span className="day">Wed</span> <span>13:00 - 22:00</span></div>
-                        <div className="day-wrapper"><span className="day">Thu</span> <span>17:00 - 00:00</span></div>
-                        <div className="day-wrapper"><span className="day">Fri</span> <span>13:00 - 22:00</span></div>
-                        <div className="day-wrapper"><span className="day">Sat</span> <span>13:00 - 22:00</span></div>
+                        <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>17:00 - 23:00</span></div>
+                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>17:00 - 23:00</span></div>
                       </div>
+                    </div>
+
+                    <div>
+                      <div className="opening-hours-header">
+                        <h6>Abholservice</h6>
+                      </div>
+                      <div className="opening-hours-section-table">
+                        <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>17:00 - 23:00</span></div>
+                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>14:00 - 22:00</span></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="opening-hours-header">
+                        <h6>Lieferservice</h6>
+                      </div>
+                      <div className="opening-hours-section-table">
+                        <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>18:00 - 22:30</span></div>
+                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>14:00 - 22:00</span></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
             </div>

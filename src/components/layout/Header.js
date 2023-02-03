@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import SmoothScroll from '../elements/SmoothScroll';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -113,16 +114,16 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Startseite</Link>
+                      <SmoothScroll to="section-hero"> <Link to="/" onClick={closeMenu}>Startseite</Link></SmoothScroll>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Galerie</Link>
+                      <SmoothScroll to="features-brief-menu"> <Link to="/" onClick={closeMenu}>Galerie</Link></SmoothScroll>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Essen Lieferservice</Link>
+                      <SmoothScroll to="features-split"> <Link to="/" onClick={closeMenu}>Essen Lieferservice</Link></SmoothScroll>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Kontakt</Link>
+                      <SmoothScroll to="features-contact-us"> <Link to="/" onClick={closeMenu}>Kontakt</Link></SmoothScroll>
                     </li>
                   </ul>
                   {/* {!hideSignin &&

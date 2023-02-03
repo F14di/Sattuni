@@ -33,12 +33,12 @@ const ContactUsForm = () => {
     const validateForm = () => {
       const errors = {};
       if (!form.name) {
-        errors.name = 'fill in your name';
+        errors.name = 'Bitte deinen Namen eingeben';
         setForm({...form,errors})
         return false;
       }
       if (!form.textArea) {
-        errors.textArea = 'fill in your response';
+        errors.textArea = 'Bitte deine Nachricht eingeben';
         setForm({...form,errors})
         return false;
       }
@@ -95,7 +95,7 @@ const ContactUsForm = () => {
       onSubmit={handleSubmit}
       method="POST"
       target="_blank" >
-        <FormLabel ><h4>Contact Us</h4></FormLabel>
+        <FormLabel ><h4>Kontakt</h4></FormLabel>
         <div className="contact-us-form-inner-wrapper">
             <div className="contact-us-form-details-section">
             <div className="form-details-field form-details-name-input-wrapper">
@@ -103,7 +103,7 @@ const ContactUsForm = () => {
                 {form.errors.name}
             </div>
             <div className="form-details-field form-details-email-input-wrapper">
-                <Input name="email" label="Email" hint="*optional" size={'sm'} className={'form-input'} handleChange={handleInputChange}/>
+                <Input name="email" label="Email Adresse" hint="*optional" size={'sm'} className={'form-input'} handleChange={handleInputChange}/>
             </div>
             </div>
             <div className="contact-us-text-area-section">
