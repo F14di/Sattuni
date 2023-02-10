@@ -13,7 +13,7 @@ const defaultProps = {
   ...SectionProps.defaults
 }
 
-const CONTACT_US_ENDPOINT = "https://public.herotofu.com/v1/df5174e0-9eff-11ed-82c7-3d7607318e65";
+const CONTACT_US_ENDPOINT = "https://submit-form.com/iDr8mtDk";
 
 const ContactUsForm = () => {
     const [status, setStatus] = useState();
@@ -51,7 +51,7 @@ const ContactUsForm = () => {
       if(!validateForm()){
         return;
       }
-      const data = {Name:form.name, Email:form.email, message:form.textArea};
+      const data = {name:form.name, email:form.email, message:form.textArea};
       setLoaderVisible(true);
       fetch(CONTACT_US_ENDPOINT, {
         method: "POST",
@@ -94,6 +94,7 @@ const ContactUsForm = () => {
       action={CONTACT_US_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
+      id="contact_us_form"
       target="_blank" >
         <FormLabel ><h4>Kontakt</h4></FormLabel>
         <div className="contact-us-form-inner-wrapper">

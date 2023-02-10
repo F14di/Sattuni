@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect} from 'react';
 import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
@@ -9,7 +9,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-import useScroll from './components/hooks/useScroll';
+// import useScroll from './components/hooks/useScroll';
 import ScrollObserver from './utils/scroll-observer';
 
 // Initialize Google Analytics
@@ -24,7 +24,7 @@ const App = () => {
 
   const childRef = useRef();
   let location = useLocation();
-  let [fixedHeader, setFixedHeader] = useState(false);
+  // let [fixedHeader, setFixedHeader] = useState(false);
 
   useEffect(() => {
     // const page = location.pathname;
@@ -34,13 +34,13 @@ const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
-  useScroll(height=>{
-    if(height > 0 ){
-      setFixedHeader(true)
-    }else if(height <10 ){
-      setFixedHeader(false)
-    }
-  })
+  // useScroll(height=>{
+  //   if(height > 0 ){
+  //     setFixedHeader(true)
+  //   }else if(height <10 ){
+  //     setFixedHeader(false)
+  //   }
+  // })
 
   return (
     <ScrollObserver>
@@ -48,7 +48,7 @@ const App = () => {
         ref={childRef}
         children={() => (
           <Switch>
-            <AppRoute exact path="/" component={Home} layout={LayoutDefault} fixedHeader={fixedHeader}/>
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           </Switch>
         )} />
     </ScrollObserver>

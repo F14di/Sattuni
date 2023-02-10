@@ -22,9 +22,9 @@ const opacityForBlock = (sectionProgress, blockNo) =>{
 }
 const FeaturesBriefMenu = ({
   className,
-//   topOuterDivider,
+  topOuterDivider,
   bottomOuterDivider,
-//   topDivider,
+  topDivider,
 //   bottomDivider,
 //   hasBgColor,
 //   invertColor,
@@ -37,7 +37,7 @@ const FeaturesBriefMenu = ({
 
   const outerClasses = classNames(
     'features-brief-menu section',
-    // topOuterDivider && 'has-top-divider',
+    topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     // hasBgColor && 'has-bg-color',
     // invertColor && 'invert-color',
@@ -46,7 +46,7 @@ const FeaturesBriefMenu = ({
 
   const innerClasses = classNames(
     'features-brief-menu-inner section-inner',
-    // topDivider && 'has-top-divider',
+    topDivider && 'has-top-divider',
     // bottomDivider && 'has-bottom-divider'
   );
 
@@ -76,8 +76,8 @@ if(elContainer){
           <div className="brief-menu-grid-layout">
             <div className="plates-wrapper">
               <div className="plates-inner-wrapper" >
-                {meals.map(MEAL => {
-                  return (<div className="plate-wrapper" >
+                {meals.map((MEAL, idx) => {
+                  return (<div className="plate-wrapper" key={idx}>
                       <div className="plate-item" >
                           <div className="plate-item-image-area plate-item-image-area-mobile-only">
                               <Image src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)}   alt={MEAL.alt} style={{margin:"0 auto"}}/>
@@ -93,7 +93,7 @@ if(elContainer){
             </div>
             <div className="plate-images-wrapper-section">
               <div className="plate-images-inner-wrapper">
-                {meals.map((MEAL, i)=><Image className={`${opacityForBlock(progress , i)}`} src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)} width={280} height={280} alt="" style={{position:'absolute'}}/>)}
+                {meals.map((MEAL, i)=><Image className={`${opacityForBlock(progress , i)}`} src={require(`./../../assets/images/bowls-minified/${MEAL.imgNoBg}.png`)} width={280} height={280} alt={MEAL.alt} style={{position:'absolute'}} key={i}/>)}
               </div>
             </div>
         </div>

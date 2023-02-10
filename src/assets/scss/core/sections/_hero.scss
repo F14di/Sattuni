@@ -40,9 +40,10 @@
 			}
 		}
 	}
-	.hero-subtitle{
-		color: get-color(dark, 3);
-	}
+	// .hero-subtitle{
+	// 	color: get-color(light, 1);
+		
+	// }
 	&::before {    
 		content: "";
 		background-image: url('../../../images/Sattuni_Close up_1.jpg');
@@ -66,8 +67,15 @@
 
 	.hero-content{
 		background: rgba(white, 0.2);
-		padding: 2.2rem 1.5rem;
+		padding: 2.1rem 1.5rem;
 		border-radius: 0.25rem;
+		min-height: 50vh;;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		>h1, h4{
+			color: get-color(light,4)
+		}
 	}
 	// Affects only hero full
 	> .hero-content + .hero-figure,

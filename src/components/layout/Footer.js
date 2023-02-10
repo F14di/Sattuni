@@ -47,6 +47,7 @@ const Footer = ({
             {/* <FooterNav /> */}
             <div className="footer-copyright">Sattuni. All right reserved</div>
           </div>
+            <div style={{position:'absolute', justifyContent:'center', gap:'7px', display:'flex'}}><a>Impressum</a><a>Datenschutzerklärung</a></div>
         </div>
       </div>
     </footer>

@@ -1,9 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import SmoothScroll from '../elements/SmoothScroll';
+import { ScrollContext } from '../../utils/scroll-observer';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -30,6 +31,8 @@ const Header = ({
   bottomDivider,
   ...props
 }) => {
+
+  const {scrollY} = useContext(ScrollContext);
 
   const [isActive, setIsactive] = useState(false);
 
@@ -72,6 +75,7 @@ const Header = ({
   const classes = classNames(
     'site-header',
     bottomOuterDivider && 'has-bottom-divider',
+    scrollY > 50 && 'header-fixed',
     className
   );
 
@@ -114,26 +118,18 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <SmoothScroll to="section-hero"> <Link to="/" onClick={closeMenu}>Startseite</Link></SmoothScroll>
+                      <SmoothScroll to="section-hero"> <h5 to="/" onClick={closeMenu}>Startseite</h5></SmoothScroll>
                     </li>
                     <li>
-                      <SmoothScroll to="features-brief-menu"> <Link to="/" onClick={closeMenu}>Galerie</Link></SmoothScroll>
+                      <SmoothScroll to="features-brief-menu"> <h5 to="/" onClick={closeMenu}>Galerie</h5></SmoothScroll>
                     </li>
                     <li>
-                      <SmoothScroll to="features-split"> <Link to="/" onClick={closeMenu}>Essen Lieferservice</Link></SmoothScroll>
+                      <SmoothScroll to="features-split"> <h5 to="/" onClick={closeMenu}>Essen Lieferservice</h5></SmoothScroll>
                     </li>
                     <li>
-                      <SmoothScroll to="features-contact-us"> <Link to="/" onClick={closeMenu}>Kontakt</Link></SmoothScroll>
+                      <SmoothScroll to="contact_us_form"> <h5 to="/" onClick={closeMenu}>Kontakt</h5></SmoothScroll>
                     </li>
                   </ul>
-                  {/* {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>} */}
                 </div>
               </nav>
             </>}

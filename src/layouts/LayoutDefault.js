@@ -5,11 +5,10 @@ import Banner from '../components/layout/partials/Banner';
 import classNames from 'classnames';
 import OrderButton from '../components/layout/partials/OrderButton';
 
-const LayoutDefault = ({ children, fixedHeader }) => {
+const LayoutDefault = ({ children }) => {
   const classes = classNames(
     'reveal-from-bottom',
     'is-revealed',
-    fixedHeader && `header-fixed`,
   )
   return (
   <>
