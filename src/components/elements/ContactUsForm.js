@@ -4,6 +4,7 @@ import Button from '../elements/Button';
 import ButtonGroup from '../elements/ButtonGroup';
 import Input from '../elements/Input';
 import FormLabel from '../elements/FormLabel';
+import Loader from './Loader';
 
 const propTypes = {
   ...SectionProps.types
@@ -16,7 +17,7 @@ const defaultProps = {
 const CONTACT_US_ENDPOINT = "https://submit-form.com/iDr8mtDk";
 
 const ContactUsForm = () => {
-    const [status, setStatus] = useState();
+    const [status, setStatus] = useState(true);
     const [loaderVisible, setLoaderVisible] = useState(false);
     const [form, setForm] = useState({
       name:'',
@@ -76,16 +77,15 @@ const ContactUsForm = () => {
     };
 
     if(loaderVisible){
-      return (
-        <h4 style={{color:'white'}}>Loading</h4>
-      );
+      return <Loader></Loader>;
     }
     if (status) {
       return (
-        <>
+        <div className="contact_us_form_response">
           <div className="text-2xl">Thank you!</div>
           <div className="text-md">{status}</div>
-        </>
+        </div>
+        
       );
     }
     

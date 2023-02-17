@@ -21,6 +21,11 @@
         flex-direction: column;
         gap: 9px;
     }
+    .contact_us_form_response{
+        margin: auto;
+        text-align: center;
+        color: get-color(light,1);
+    }
 }
 .contact-us-form-button-section{
     .button-group{
