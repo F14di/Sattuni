@@ -17,7 +17,7 @@ const defaultProps = {
 const CONTACT_US_ENDPOINT = "https://submit-form.com/iDr8mtDk";
 
 const ContactUsForm = () => {
-    const [status, setStatus] = useState(true);
+    const [status, setStatus] = useState();
     const [loaderVisible, setLoaderVisible] = useState(false);
     const [form, setForm] = useState({
       name:'',
