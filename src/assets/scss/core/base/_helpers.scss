@@ -71,6 +71,10 @@
 	color: color(secondary);
 }
 
+.text-color-bg {
+	color: get-color(bg,1);
+}
+
 .text-color-error {
 	color: color(error);
 }
