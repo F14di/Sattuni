@@ -50,6 +50,10 @@
 			animation: slideUpInModalBg .15s ease-in-out both;
 		}
 	}
+	h4{
+		text-align: center;
+		color: get-color(light,1);
+	}
 }
 
 .modal-inner {

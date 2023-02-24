@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import ReactDom from 'react-dom'
 
 const propTypes = {
   children: PropTypes.node,
@@ -56,23 +57,21 @@ const Modal = ({
   const classes = classNames(
     'modal',
     show && 'is-active',
-    // video && 'modal-video',
     className
   );
 
   return (
-    <>
-      {show &&
+      show && ReactDom.createPortal(
         <div
           {...props}
           className={classes}
           onClick={handleClose}
         >
           <div className="modal-inner" onClick={stopProgagation}>
+            {children}
           </div>
         </div>
-      }
-    </>
+      , document.getElementById('portal'))
   )
 }
 
