@@ -69,7 +69,7 @@ const ContactUsForm = () => {
           setLoaderVisible(false);
           return response.json();
         })
-        .then(() => setStatus("We'll be in touch soon."))
+        .then(() => setStatus("Deine Anfrage wurde erfolgreich geschickt. Wir melden uns schnellstmöglich bei dir."))
         .catch((err) => {
           setStatus(err.toString())
           setLoaderVisible(false);
@@ -82,7 +82,7 @@ const ContactUsForm = () => {
     if (status) {
       return (
         <div className="contact_us_form_response">
-          <div className="text-2xl">Thank you!</div>
+          <div className="text-2xl">Danke!</div>
           <div className="text-md">{status}</div>
         </div>
         

@@ -24,7 +24,8 @@ $font--scale: (
 	epsilon: 	( 16px, 30px, -0.1px ),
 	zeta:    	( clamp(0.78rem, 6.1vw - 1rem, 1.093rem), 28px, -0.1px ),
 	eta:     	( clamp(0.71rem, 0.8vw + 0.55rem, 1.075rem), 28px, -0.1px ),
-	theta:   	( clamp(0.7rem, 5.4vw - 1rem, 1.0425rem), 26px, null )
+	theta:   	( clamp(0.7rem, 5.4vw - 1rem, 1.0425rem), 26px, null ),
+	h3Sattuni:  ( clamp(1.288rem, 8.6vw - 1.05rem, 1.95rem), 1.5em, -0.3px ),
 );
 
 // Base elements: font size
@@ -33,6 +34,7 @@ $font--size: (
 	h1:				'beta',
 	h2:				'gamma',
 	h3:				'delta',
+	h3Sattuni: 		'h3Sattuni',
 	h4:				'delta',
 	h5:				'zeta',
 	base:			'epsilon',

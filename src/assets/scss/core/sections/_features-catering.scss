@@ -1,0 +1,23 @@
+.features-catering.section{
+    .features-catering-inner.section-inner{
+        margin-top: 15px;
+        .catering-section-wrapper{
+            h6, h4{
+                margin: 18px 0 6px;
+            }
+            p{
+                color: #778591;
+            }
+        }
+        .catering-image-container{
+            // margin: 0 15px;
+            padding: 2px;
+            &:focus-visible{
+                outline: none;
+            }
+        }
+        .slick-arrow:before{
+            color: #AAA !important;
+        }
+    }
+}

@@ -18,6 +18,7 @@
                 will-change: opacity;
                 transition: opacity 540ms;
                 @include font-size(h3);
+                @include font-size(h3Sattuni);
                 &.text-focus{
                     opacity: 1;
                 }

@@ -59,31 +59,6 @@ const Testimonial = ({
     paragraph: ''
   };
 
-  // useEffect(()=>{
-  //   fetch(
-  //     `https://maps.googleapis.com/maps/api/place/details/json?place_id=${PLACE_ID}&key=${API_KEY}`
-  //   )
-  //     .then(response => {
-  //       return response.json();
-  //     })
-  //     .then(data => {
-  //       let reviews = data.result.reviews;
-  //       reviews = reviews.filter(review => review.rating === 5);
-  //       reviews.sort((a, b) => new Date(b.time) - new Date(a.time));
-  //       reviews = reviews.slice(0, 3);
-  //       console.log("\n Latest Three 5-Star Business Reviews: \n");
-  //       for (const review of reviews) {
-  //         console.log(`Author Name: ${review.author_name}`);
-  //         console.log(`Rating: ${review.rating} out of 5.0`);
-  //         console.log(`Text: ${review.text}`);
-  //         console.log("\n");
-  //       }
-  //     })
-  //     .catch(error => {
-  //       console.error(`Looks like something went wrong: ${error}`);
-  //     });
-    
-  // },[])
   return (
     <section
       {...props}

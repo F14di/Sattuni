@@ -54,7 +54,7 @@ const Footer = ({
               <FooterSocial />
             </div>
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
-              <div className="footer-copyright">Sattuni. All right reserved</div>
+              <div className="footer-copyright">Sattuni. All rights reserved</div>
             </div>
             <div className="termsAndConditionsButtons">
               <button onClick={()=>showTermsModal('Impressum')}>Impressum</button>

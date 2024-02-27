@@ -8,6 +8,7 @@ import Testimonial from '../components/sections/Testimonial';
 import FeaturesDescriptiveText from '../components/sections/FeaturesDescriptiveText';
 import FeaturesBriefMenu from '../components/sections/FeaturesBriefMenu';
 import FeaturesContactUs from '../components/sections/FeaturesContactUs';
+import FeaturesCatering from '../components/sections/FeaturesCatering';
 // import ScrollObserver from '../utils/scroll-observer';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <FeaturesDescriptiveText />
       <FeaturesBriefMenu />
       <FeaturesSplit invertMobile imageFill className="illustration-section-02" />
+      <FeaturesCatering/>
       <Testimonial  />
       <FeaturesContactUs />
       {/* <FeaturesTiles /> */}

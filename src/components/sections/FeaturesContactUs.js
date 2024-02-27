@@ -47,26 +47,8 @@ const FeaturesContactUs = ({
                       </div>
                       <div className="opening-hours-section-table">
                         <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>17:00 - 23:00</span></div>
-                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>17:00 - 23:00</span></div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <div className="opening-hours-header">
-                        <h6>Abholservice</h6>
-                      </div>
-                      <div className="opening-hours-section-table">
-                        <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>17:00 - 23:00</span></div>
-                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>14:00 - 22:00</span></div>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="opening-hours-header">
-                        <h6>Lieferservice</h6>
-                      </div>
-                      <div className="opening-hours-section-table">
-                        <div className="day-wrapper"><span className="day">Montag - Freitag</span> <span>18:00 - 22:30</span></div>
-                        <div className="day-wrapper"><span className="day">Samstag - Sonntag</span> <span>14:00 - 22:00</span></div>
+                        <div className="day-wrapper"><span className="day">Samstag</span> <span>17:00 - 22:00</span></div>
+                        <div className="day-wrapper"><span className="day">Sonntag</span> <span>14:00 - 22:00</span></div>
                       </div>
                     </div>
                   </div>
