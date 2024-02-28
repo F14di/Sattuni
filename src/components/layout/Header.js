@@ -121,6 +121,9 @@ const Header = ({
                       <SmoothScroll to="section-hero"> <h5 to="/" onClick={closeMenu}>Startseite</h5></SmoothScroll>
                     </li>
                     <li>
+                      <SmoothScroll to="features-catering"> <h5 to="/" onClick={closeMenu}>Catering</h5></SmoothScroll>
+                    </li>
+                    <li>
                       <SmoothScroll to="features-brief-menu"> <h5 to="/" onClick={closeMenu}>Galerie</h5></SmoothScroll>
                     </li>
                     <li>

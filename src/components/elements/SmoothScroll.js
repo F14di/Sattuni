@@ -57,7 +57,7 @@ const SmoothScroll = ({
       const startScrollOffset = window.pageYOffset;
       const scrollEndElemTop = target.getBoundingClientRect().top;
 
-      scrollToEl(start, stamp, timing, scrollEndElemTop, startScrollOffset);
+      scrollToEl(start, stamp, timing, scrollEndElemTop - 66, startScrollOffset);
     })
   };
 

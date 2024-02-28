@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Hero className="illustration-section-01" />
+      <FeaturesCatering/>
       <FeaturesDescriptiveText />
       <FeaturesBriefMenu />
       <FeaturesSplit invertMobile imageFill className="illustration-section-02" />
-      <FeaturesCatering/>
       <Testimonial  />
       <FeaturesContactUs />
       {/* <FeaturesTiles /> */}
